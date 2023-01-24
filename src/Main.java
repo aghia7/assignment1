@@ -10,6 +10,7 @@ public class Main {
         Scanner sc = new Scanner(file);
 
         while (sc.hasNextLine()) {
+            System.out.println("Hello World!");
             String line = sc.nextLine();
             Point point = Parser.parsePoint(line);
             System.out.println(point);
